@@ -1,0 +1,8 @@
+%dw 2.0
+import * from dw::core::Objects
+output application/json
+var myVar = read(payload.xmlString, 'application/xml')
+---
+{
+    "entrySet": entrySet(myVar)
+}
