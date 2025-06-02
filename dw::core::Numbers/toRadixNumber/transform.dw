@@ -1,8 +1,0 @@
-%dw 2.0
-import toRadixNumber from dw::core::Numbers
-output application/json
----
-{
-    a: toRadixNumber(payload.a.value, payload.a.radix),
-    b: toRadixNumber(payload.b.value, payload.b.radix)
-}
