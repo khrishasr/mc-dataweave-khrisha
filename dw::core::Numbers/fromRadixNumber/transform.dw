@@ -1,0 +1,8 @@
+%dw 2.0
+import fromRadixNumber from dw::core::Numbers
+output application/json
+---
+{
+    a: fromRadixNumber(payload.a.value, payload.a.radix),
+    b: fromRadixNumber(payload.b.value, payload.b.radix)
+}
