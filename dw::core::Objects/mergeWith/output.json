@@ -1,7 +1,0 @@
-{
-    "mergeWith": {
-        "a": false,
-        "b": 1,
-        "c": "Test"
-    }
-}
