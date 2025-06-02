@@ -1,0 +1,7 @@
+%dw 2.0
+import mergeWith from dw::core::Objects
+output application/json
+---
+{
+    "mergeWith": payload.obj1 mergeWith payload.obj2
+}
