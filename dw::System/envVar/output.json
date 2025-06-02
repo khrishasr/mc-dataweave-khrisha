@@ -1,0 +1,10 @@
+{
+    "envVars": [
+        {
+            "real": "/bin/bash"
+        },
+        {
+            "fake": null
+        }
+    ]
+}
