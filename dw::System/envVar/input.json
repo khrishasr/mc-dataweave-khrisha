@@ -1,6 +1,0 @@
-{
-    "variables": {
-        "real": "SHELL",
-        "fake": "FAKE_ENV_VAR"
-    }
-}
